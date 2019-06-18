@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.000001 50.000001">
+  <g stroke-linejoin="round">
+    <ellipse ry="22.923412" rx="22.92341" cy="24.999983" cx="25" fill="#2c3c4c" stroke="#2c3c4c" stroke-width="4.1531768" stroke-linecap="round"/>
+    <text y="31.557127" x="18.486258" style="line-height:125%" font-weight="400" font-size="22.5" letter-spacing="0" word-spacing="0" font-family="sans-serif" fill="#d6e5ed" stroke="#d6e5ed" stroke-linecap="round">
+      <tspan y="31.557127" x="18.486258">$</tspan>
+    </text>
+    <text transform="rotate(90)" y="-42.05854" x="19.463335" style="line-height:125%" font-weight="400" font-size="22.3732777" letter-spacing="0" word-spacing="0" font-family="sans-serif" fill="#d6e5ed" stroke="#d6e5ed" stroke-width="3.3559916">
+      <tspan y="-42.05854" x="19.463335">_</tspan>
+    </text>
+    <text transform="rotate(-175.0251506)" y="-18.721828" x="-18.753014" style="line-height:125%" font-weight="400" font-size="15" font-family="sans-serif" letter-spacing="0" word-spacing="0" fill="#d6e5ed" stroke="#d6e5ed" stroke-linecap="round">
+      <tspan y="-18.721828" x="-18.753014">~</tspan>
+    </text>
+  </g>
+</svg>
