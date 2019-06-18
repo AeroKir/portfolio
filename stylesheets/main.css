@@ -691,6 +691,8 @@ body {
 
 .link-in-text:hover {
   background-color: rgba(175, 204, 221, 0.5);
+  -webkit-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
   transition: 0.5s ease-out;
 }
 
@@ -720,12 +722,17 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
   }
   .skill-item, .workflow-item, .assets-item {
     width: calc(50% - 1em);
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     margin-right: 1em;
   }
 }
@@ -763,7 +770,8 @@ body {
 
 .assets-item {
   background-color: #AFCCDD;
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  -webkit-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+          box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   border-radius: 10px;
   padding: 1em;
   margin-bottom: 1em;
@@ -771,6 +779,8 @@ body {
 
 .assets-item:hover {
   background-color: rgba(175, 204, 221, 0.5);
+  -webkit-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
   transition: 0.5s ease-out;
 }
 
@@ -851,7 +861,8 @@ body {
   display: inline-block;
   margin-top: 1em;
   background-color: #AFCCDD;
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  -webkit-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+          box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   border-radius: 10px;
   padding: 1em 1em;
   font-weight: 700;
@@ -859,6 +870,8 @@ body {
 
 .download-cv-link:hover {
   background-color: rgba(175, 204, 221, 0.5);
+  -webkit-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
   transition: 0.5s ease-out;
 }
 
