@@ -9,6 +9,7 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="stylesheets/work-page.css">
 </head>
 
 <body>
@@ -32,67 +33,193 @@
     <main class="layout-main-content">
       <section class="section work-section">
         <h1 class="main-heading">My Works</h1>
-        <ul class="assets-list">
-          <li class="assets-item">
-            <a href="https://github.com/AeroKir/weather-on-map" target="_blank" rel="noopener noreferrer">
-              <div class="layout-item-content-wrapper">
-                <h2 class="item-heading">Weather on Map</h2>
-                <p class="project-description">SPA application for viewing weather on a map in various cities.</p>
-                <p><span>Used technlogies:</span> JavaScript, LeafletJS, JSON, HTML, CSS, SVG.</p>
-                <p><span>Solving tasks:</span></p>
-                <ul class="experience-list-nested">
-                  <li class="experience-list-item-nested">
-                    Map initialization based on user location.
-                  </li>
-                  <li class="experience-list-item-nested">
-                    Retrieving weather data using an API using asynchronous requests.
-                  </li>
-                  <li class="experience-list-item-nested">
-                    Processing of the data with reference to geographic coordinates and display on the map.
-                  </li>
-                  <li class="experience-list-item-nested">
-                    Create custom weather icons.
-                  </li>
-                </ul>
+        <ul class="works-list">
+          <li class="works-item">
+            <figure class="project-description-figure">
+              <figcaption class="project-figcaption">Email send app</figcaption>
+              <div class="project-description-content">
+                <img class="project-preview-img" src="./images/works-preview/email-send-app-thumbnail.png"
+                  alt="Email send app preview image">
+                <div class="project-description-content-aside">
+                  <p class="project-description">SPA for sending emails with an opportunity to track delivery status.
+                  </p>
+                  <ul class="project-links-list">
+                    <li class="project-link-item">
+                      <a class="project-figure-link" href="https://github.com/AeroKir/sendsay-test-app" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="project-figure-link-icon" src="./images/github-icon.svg" alt="GitHub icon">
+                        View source on github
+                      </a>
+                    </li>
+                    <li class="project-link-item">
+                      <a class="project-figure-link" href="https://aerokir.github.io/sendsay-test-app/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="project-figure-link-icon" src="./images/internet-icon.svg" alt="Earth icon">
+                        View a working application
+                      </a>
+                    </li>
+                  </ul>
+                  <h2 class="project-description-subheading">Used technologies:</h2>
+                  <ul class="project-tchnology-list">
+                    <li class="project-tchnology-item">React</li>
+                    <li class="project-tchnology-item">Redux</li>
+                    <li class="project-tchnology-item">JavaScript</li>
+                    <li class="project-tchnology-item">CSS</li>
+                  </ul>
+                  <h2 class="project-description-subheading">Solving tasks:</h2>
+                  <ul class="project-tasks-list">
+                    <li class="project-task-item">
+                      Form and field validation are written without using third-party libraries;
+                    </li>
+                    <li class="project-task-item">
+                      Implemented file attachment via Drag and drop. Also without using third-party libraries;
+                    </li>
+                    <li class="project-task-item">
+                      Implemented verification of the attached files by size, type, and total files size per one email;
+                    </li>
+                    <li class="project-task-item">
+                      Implemented a display of a list of sent messages with sending status;
+                    </li>
+                    <li class="project-task-item">
+                      Wrote tests for most of the main components, as well as for reducer and action creators;
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </a>
+            </figure>
           </li>
-          <li class="assets-item">
-            <a href="https://github.com/AeroKir/telegram-contest" target="_blank" rel="noopener noreferrer">
-              <div class="layout-item-content-wrapper">
-                <h2 class="item-heading">Telegram Contest</h2>
-                <p class="project-description">Processing and visualisation of the received data in the form of graphs.
-                  The project in the framework of the contest conducted by the Telegram messenger.
-                </p>
-                <p><span>Used technlogies:</span> JavaScript, SVG, HTML, CSS.</p>
-                <p><span>Solving tasks:</span></p>
-                <ul class="experience-list-nested">
-                  <li class="experience-list-item-nested">
-                    Solving the problem of displaying various numerical data in the form of graphs
-                    on a limited viewing area without using third-party js libraries.
-                  </li>
-                  <li class="experience-list-item-nested">
-                    Using SVG technology to visualize data.
-                  </li>
-                </ul>
+          <li class="works-item">
+            <figure class="project-description-figure">
+              <figcaption class="project-figcaption">Avia tickets view</figcaption>
+              <div class="project-description-content">
+                <img class="project-preview-img" src="./images/works-preview/flight-variants-thumbnail.png"
+                  alt="Avia tickets preview image">
+                <div class="project-description-content-aside">
+                  <p class="project-description">SPA for showing avia tickets with filters.</p>
+                  <ul class="project-links-list">
+                    <li class="project-link-item">
+                      <a class="project-figure-link" href="https://github.com/AeroKir/avia-trip-app" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="project-figure-link-icon" src="./images/github-icon.svg" alt="GitHub icon">
+                        View source on github
+                      </a>
+                    </li>
+                    <li class="project-link-item">
+                      <a class="project-figure-link" href="https://aerokir.github.io/avia-trip-app/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="project-figure-link-icon" src="./images/internet-icon.svg" alt="Earth icon">
+                        View a working application
+                      </a>
+                    </li>
+                  </ul>
+                  <h2 class="project-description-subheading">Used technologies:</h2>
+                  <ul class="project-tchnology-list">
+                    <li class="project-tchnology-item">React</li>
+                    <li class="project-tchnology-item">Redux</li>
+                    <li class="project-tchnology-item">JavaScript</li>
+                    <li class="project-tchnology-item">CSS</li>
+                  </ul>
+                  <h2 class="project-description-subheading">Solving tasks:</h2>
+                  <ul class="project-tasks-list">
+                    <li class="project-task-item">
+                      Ticket render;
+                    </li>
+                    <li class="project-task-item">
+                      Filtering tickets in the issuance by the number of transfers;
+                    </li>
+                    <li class="project-task-item">
+                      Currency switching. Currency rates receiving from an API;
+                    </li>
+                    <li class="project-task-item">
+                      Layout of the ticket, filter, currency switching;
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </a>
+            </figure>
           </li>
-          <li class="assets-item">
-            <a href="https://github.com/AeroKir/places-in-Ukraine" target="_blank" rel="noopener noreferrer">
-              <div class="layout-item-content-wrapper">
-                <h2 class="item-heading">Translation List of Ukrainian Cities</h2>
-                <p class="project-description">List in JSON format with translated names in Ukrainian
-                  and Russian with geographic coordinates.</p>
-                <p><span>Used technlogies:</span> JavaScript, LeafletJS, JSON.</p>
-                <p><span>Solving tasks:</span></p>
-                <ul class="experience-list-nested">
-                  <li class="experience-list-item-nested">
-                    Parsing and translating names from the OpenWeatherMap list.
-                  </li>
-                </ul>
+          <li class="works-item">
+            <figure class="project-description-figure">
+              <figcaption class="project-figcaption">Weather on Map</figcaption>
+              <div class="project-description-content">
+                <img class="project-preview-img" src="./images/works-preview/weather-on-map-thumbnail.png"
+                  alt="Weather on Map app preview image">
+                <div class="project-description-content-aside">
+                  <p class="project-description">SPA application for viewing weather on a map in various cities.
+                  </p>
+                  <ul class="project-links-list">
+                    <li class="project-link-item">
+                      <a class="project-figure-link" href="https://github.com/AeroKir/weather-on-map" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="project-figure-link-icon" src="./images/github-icon.svg" alt="GitHub icon">
+                        View source on github
+                      </a>
+                    </li>
+                    <li class="project-link-item">
+                      <a class="project-figure-link" href="https://aerokir.github.io/weather/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="project-figure-link-icon" src="./images/internet-icon.svg" alt="Earth icon">
+                        View a working application
+                      </a>
+                    </li>
+                  </ul>
+                  <h2 class="project-description-subheading">Used technologies:</h2>
+                  <ul class="project-tchnology-list">
+                    <li class="project-tchnology-item">JavaScript</li>
+                    <li class="project-tchnology-item">LeafletJS</li>
+                    <li class="project-tchnology-item">JSON</li>
+                    <li class="project-tchnology-item">HTML</li>
+                    <li class="project-tchnology-item">CSS</li>
+                    <li class="project-tchnology-item">SVG</li>
+                  </ul>
+                  <h2 class="project-description-subheading">Solving tasks:</h2>
+                  <ul class="project-tasks-list">
+                    <li class="project-task-item">
+                      Map initialization based on user location;
+                    </li>
+                    <li class="project-task-item">
+                      Retrieving weather data using an API using asynchronous requests;
+                    </li>
+                    <li class="project-task-item">
+                      Processing of the data with reference to geographic coordinates and display on the map;
+                    </li>
+                    <li class="project-task-item">
+                      Created custom weather icons;
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </a>
+            </figure>
+          </li>
+          <li class="works-item">
+            <figure class="project-description-figure">
+              <figcaption class="project-figcaption">Translated List of Ukrainian Cities</figcaption>
+              <div class="project-description-content">
+                <img class="project-preview-img" src="./images/works-preview/ukrainian-cities-list-thumbnail.png"
+                  alt="Weather on Map app preview image">
+                <div class="project-description-content-aside">
+                  <p class="project-description">List in JSON format with translated names in Ukrainian
+                    and Russian with geographic coordinates.
+                  </p>
+                  <ul class="project-links-list">
+                    <li class="project-link-item">
+                      <a class="project-figure-link" href="https://github.com/AeroKir/places-in-Ukraine/tree/master/city-list-ukrainian" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="project-figure-link-icon" src="./images/github-icon.svg" alt="GitHub icon">
+                        View source on github
+                      </a>
+                    </li>
+                  </ul>
+                  <h2 class="project-description-subheading">Used technologies:</h2>
+                  <ul class="project-tchnology-list">
+                    <li class="project-tchnology-item">JSON</li>
+                  </ul>
+                  <p>Contains more than 1600 translated names of settlements and regions of Ukraine.</p>
+                  <p>Will be helpful in cases when you need to link a place name with a map, for example.</p>
+                  <p>Feel free to use it in your projects.</p>
+                </div>
+              </div>
+            </figure>
           </li>
         </ul>
       </section>
@@ -321,7 +448,7 @@
     </nav>
 
   </div>
-  <!-- <script src="js/handler-contacts.js"></script> -->
+
 </body>
 
 </html>
