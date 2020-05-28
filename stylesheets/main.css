@@ -861,6 +861,7 @@ body {
 .download-cv-link {
   display: inline-block;
   margin-top: 1em;
+  margin-right: 0.5em;
   background-color: #AFCCDD;
   -webkit-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
           box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
