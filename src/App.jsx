@@ -4,7 +4,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import ErrorPage from './pages/ErrorPage';
 // import './App.css';
 
+import MainNavMenu from './components/menu/MainNavMenu';
 import Home from './components/Home';
+import MainLayout from './layouts/MainLayout';
 
 function App() {
 //   const router = createBrowserRouter([
@@ -17,11 +19,7 @@ function App() {
 
 //   return <RouterProvider router={router} />
     return (
-        <>
-        <h1>New Portfolio</h1>
-        <Home />
-        </>
-
+        <MainLayout />
     );
 }
 
