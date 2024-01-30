@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import MainNavMenu from './components/menu/MainNavMenu';
 import Home from './components/Home';
 import MainLayout from './layouts/MainLayout';
+import router from './routes/router';
 
 function App() {
 //   const router = createBrowserRouter([
@@ -19,7 +20,7 @@ function App() {
 
 //   return <RouterProvider router={router} />
     return (
-        <MainLayout />
+        <RouterProvider router={router} />
     );
 }
 
