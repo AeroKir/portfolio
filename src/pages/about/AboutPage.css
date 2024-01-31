@@ -1,0 +1,19 @@
+.avatar-image {
+    margin-bottom: 1em;
+    width: 150px;
+    height: auto;
+    border-radius: 5%;
+    -webkit-box-shadow: 5px 6px 9px 0px rgba(0, 0, 0, 0.61);
+    box-shadow: 5px 6px 9px 0px rgba(0, 0, 0, 0.61);
+}
+
+.about-section p, .assets-section p {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+@media screen and (min-width: 960px) {
+    .about-section p {
+        width: 70%;
+    }
+}

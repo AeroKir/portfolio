@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Outlet } from 'react-router-dom';
+import Logo from '../components/logo/Logo';
 import MainNavMenu from '../components/menu/MainNavMenu';
 
 function MainLayout(props) {
     return (
         <div>
+            <Logo />
             <main>
-                <div>content</div>
+                <Outlet />
             </main>
             <MainNavMenu />
         </div>

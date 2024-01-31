@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './MainNavMenu.css';
+import { NavLink } from 'react-router-dom';
 
 function MainNavMenu(props) {
     return (
@@ -9,14 +10,14 @@ function MainNavMenu(props) {
             <svg className="main-nav-menu-stem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 410.00001">
                 <path
                     d="M189.09227 407.6827s-3.96926-62.99088-1.89234-93.15968c-.35021-9.70627-.83456-13.20243-1.84737-17.45971-3.99158-17.05857 2.28628-45.39973-1.89816-47.07225-16.55381-6.61662-34.03915-6.68779-66.97052-24.37011 0 0 33.84861 12.56067 43.6467 14.96865 9.79807 2.408 21.20367 5.96957 23.75277 3.55325 2.54908-2.4162 2.45597-18.07858 1.70403-19.49957-2.52518-4.77204-43.11899-34.03001-52.11388-45.03836-10.4341-12.76985-17.80654-28.61694-17.80654-28.61694s14.11005 22.36222 26.31772 32.31539c12.20764 9.95307 33.62635 28.01867 43.79683 33.72289 1.6756-11.78756-3.42093-45.88985-13.77267-47.71685-5.49253-3.33919-127.337233-6.81579-170.5355341-42.40302C49.401203 152.95483 124.29043 166.48253 171.44116 157.91683c6.24584-3.13943-2.61753-15.8209-3.36084-26.30475-.74343-10.48387 4.74779-29.39917-.006-32.949969-4.75417-3.550807-20.95764-1.225212-30.534-4.234437-6.36522-2.00031-17.06429-8.925442-17.06429-8.925442s11.46636 5.385645 17.90293 6.494869c10.27755 1.770993 31.59352 3.450388 31.59352 0 0 0 3.68003-21.118657 0-30.850132-7.77538-20.56108-10.99837-38.019218-12.63739-60.8884906 0 0 2.8342 25.2478256 7.36539 37.3448706 2.81835 7.524219 3.73176 18.948031 12.18569 21.535243 13.92352 4.26109 39.80982-17.142995 39.80982-17.142995-6.95204 11.755236-31.14143 19.594627-36.15166 26.097038-5.52906 7.837849-1.6478 18.528643-2.36137 27.798317-.46637 6.058298-1.56595 12.117028-1.25475 18.181308.51404 10.01719-1.78218 21.43383 5.1437 29.81271 3.79828 4.59514 14.46688 1.1053 21.17133-.90707 16.99151-5.1 36.65965-12.22833 44.50531-27.16429-3.79055 13.06452-20.57874 22.04821-37.48502 27.62554-11.0079 3.57664-20.78655 7.59643-23.72332 11.28623-2.93675 3.68975 5.74867 32.95853 9.12957 37.28911 3.16703 4.05668 19.97385-4.31442 28.59213-9.07419 4.97915-2.74992 12.6939-10.89133 12.6939-10.89133-4.11878 13.31754-38.49886 28.18032-38.88568 30.80086-.3868 2.62052-6.17625 61.93631-1.5553 91.29687 1.07983 6.86097 2.81979 9.29288 4.19964 20.30094 1.3799 11.00809-.9639 26.20906-.20162 39.28941 1.05179 18.04782 6.61007 53.94396 6.61007 53.94396z"
-                    fill="#2c3c4c" fill-rule="evenodd" stroke="#2c3c4c" stroke-width="4.6342197"
+                    fill="#2c3c4c" fillRule="evenodd" stroke="#2c3c4c" strokeWidth="4.6342197"
                 />
             </svg>
 
             <ul className="main-nav-menu-list">
 
                 <li className="main-nav-menu-item">
-                    <a href="index.html" className="main-nav-menu-link">
+                    <NavLink to="/" className="main-nav-menu-link">
                         <svg className="main-nav-menu-leaf leaf-item-home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115 75.000001">
                             <path d="M81.593811 74.80084c-5.96566-.023-10.75752-4.1255-15.67041-6.779-5.05217-2.7289-8.01033-8.4756-14.04948-9.3212-4.15088-.5814-7.68556
                                      3.6597-11.888011 3.3894-6.59107-.4236-11.217876-5.5755-17.291701-7.6265-5.023208-1.6962-11.583156-.9638-15.6705853-3.813-3.977285-2.7726-8.041795-7.4496-6.484282-11.4398
@@ -32,11 +33,11 @@ function MainNavMenu(props) {
                                 web-developer</tspan></text>
                         </svg>
                         <span className="main-nav-menu-text">Home</span>
-                    </a>
+                    </NavLink>
                 </li>
 
                 <li className="main-nav-menu-item">
-                    <a href="skills.html" className="main-nav-menu-link">
+                    <NavLink to="/skills" className="main-nav-menu-link">
                         <svg className="main-nav-menu-leaf leaf-item-skills" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.000001 45.000001">
                             <path d="M48.961028 34.935c-5.26691 2.0173-7.28973 8.1502-12.78782
                                      9.7021-1.7327.489-3.77049.1665-5.48049-.3734-10.736572-3.3882-21.3874168-9.1473-27.4025228-17.1649-2.184654-2.912-4.471426-7.165-2.283552-10.0752
@@ -51,11 +52,11 @@ function MainNavMenu(props) {
                             <text className="main-nav-menu-leaf-text leaf-item-skills-text" x="12" y="32">skills</text>
                         </svg>
                         <span className="main-nav-menu-text">Skills</span>
-                    </a>
+                    </NavLink>
                 </li>
 
                 <li className="main-nav-menu-item">
-                    <a href="work.html" className="main-nav-menu-link">
+                    <NavLink to="work" className="main-nav-menu-link">
                         <svg className="main-nav-menu-leaf leaf-item-work" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 49.000001">
                             <path d="M27.221503 45.8849c-2.535033 2.1452-6.495531
                                      3.3387-9.936273 2.8755-3.277793-.4412-6.783206-2.3984-8.1619523-5.1119-.9401658-1.8502 1.3901623-4.1303.7097129-6.0704-1.4641253-4.1749-8.7023507-5.5983-9.5814279-9.9043-.8659811-4.2418
@@ -72,7 +73,7 @@ function MainNavMenu(props) {
                         </svg>
 
                         <span className="main-nav-menu-text">Work</span>
-                    </a>
+                    </NavLink>
                 </li>
 
                 <li className="main-nav-menu-item">
@@ -110,7 +111,7 @@ function MainNavMenu(props) {
                 </li>
 
                 <li className="main-nav-menu-item">
-                    <a href="about.html" className="main-nav-menu-link">
+                    <NavLink to="/about" className="main-nav-menu-link">
                         <svg className="main-nav-menu-leaf leaf-item-about" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65.000001 60.000001">
                             <path
                                 d="M42.274825 59.77054c-10.79448-1.5281-13.05915-14.7402-22.11196-19.7536-1.95493-1.0827-4.66781-.9825-6.63359-2.0524-3.9606098-2.1549-6.7032298-5.5165-9.7923998-8.4655-1.11906-1.0684-2.6659-1.991-3.15886-3.3352-.78372-2.1371-.55841-4.6605.63176-6.67
@@ -124,11 +125,11 @@ function MainNavMenu(props) {
                         </svg>
 
                         <span className="main-nav-menu-text">About</span>
-                    </a>
+                    </NavLink>
                 </li>
 
                 <li className="main-nav-menu-item">
-                    <a href="contacts.html" className="main-nav-menu-link" id="contacts-link">
+                    <NavLink to="/contacts" className="main-nav-menu-link" id="contacts-link">
                         <svg className="main-nav-menu-leaf leaf-item-contacts" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.000001 48.000001">
                             <path d="M49.664604 47.8757c-3.630975-.015-6.547519-2.6406-9.537717-4.3392-3.074915-1.7466-4.875438-5.425-8.551125-5.9663-2.526363-.3722-4.677744
                                      2.3425-7.235493
@@ -145,11 +146,11 @@ function MainNavMenu(props) {
                         </svg>
 
                         <span className="main-nav-menu-text">Contacts</span>
-                    </a>
+                    </NavLink>
                 </li>
 
                 <li className="main-nav-menu-item">
-                    <a href="assets.html" className="main-nav-menu-link">
+                    <NavLink to="/assets" className="main-nav-menu-link">
                         <svg className="main-nav-menu-leaf leaf-item-assets" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.000001 45.000001">
                             <path d="M6.9507171 40.6108C1.6665831 37.7543.1041631 30.7437.1362361 25.231c.02009-3.476
                                      1.493746-7.3519 4.40937-9.6572 1.140217-.9014 3.100655-.377 4.409361-1.0729 3.4908719-1.8563
@@ -162,11 +163,11 @@ function MainNavMenu(props) {
                             <text className="main-nav-menu-leaf-text leaf-item-assets-text" x="0" y="33">assets</text>
                         </svg>
                         <span className="main-nav-menu-text">Assets</span>
-                    </a>
+                    </NavLink>
                 </li>
 
                 <li className="main-nav-menu-item">
-                    <a href="cv.html" className="main-nav-menu-link">
+                    <NavLink to="/cv" className="main-nav-menu-link">
                         <svg className="main-nav-menu-leaf leaf-item-cv" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 45.000001">
                             <path d="M.4338345 31.7162c-1.393538-3.959 2.5849263-8.0346
                                      2.9624857-12.1787.2597396-2.8509-1.8200573-5.979-.4937693-8.5702C5.6908769 5.519
@@ -179,7 +180,7 @@ function MainNavMenu(props) {
                         </svg>
 
                         <span className="main-nav-menu-text">CV</span>
-                    </a>
+                    </NavLink>
                 </li>
 
                 <li className="main-nav-menu-item">
@@ -195,14 +196,14 @@ function MainNavMenu(props) {
                                      5.9374-9.7542418 5.5827-3.9718207-.3596-6.9825382-4.1213-8.2141654-7.3005z"
                             />
 
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 25">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 25">
                                 <defs>
-                                <path id="a" d="M937.5 1039.6122c21-9.5 32.5-34.75 32.5-34.75" fill="none" fill-rule="evenodd"
+                                <path id="a" d="M937.5 1039.6122c21-9.5 32.5-34.75 32.5-34.75" fill="none" fillRule="evenodd"
                                     stroke="#fff" />
                                 </defs>
                                 <text className="main-nav-menu-leaf-text leaf-item-license-text"
                                 transform="matrix(1.03623 0 0 .98352 -967.88525 -996.951359)">
-                                <textPath xlink:href="#a">
+                                <textPath xlinkHref="#a">
                                     <tspan>license</tspan>
                                 </textPath>
                                 </text>

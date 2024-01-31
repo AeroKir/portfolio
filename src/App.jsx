@@ -22,6 +22,16 @@ function App() {
     return (
         <RouterProvider router={router} />
     );
+
+    // const routes = createBrowserRouter([
+    //     {
+    //       element: <MainLayout />,
+    //     //   errorElement: <ErrorPage />,
+    //       children: router,
+    //     }
+    // ]);
+
+    // return <RouterProvider router={routes} />
 }
 
 export default App

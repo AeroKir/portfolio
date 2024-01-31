@@ -1,0 +1,17 @@
+.logo {
+    position: fixed;
+    top: 1em;
+    left: 1.3em;
+    width: 30px;
+    height: auto;
+    z-index: 1;
+}
+
+.logo-is-not-main-page {
+    width: 20px;
+}
+
+.logo-link:focus .logo {
+    border: 2px solid rgba(170, 46, 0, 0.8);
+    border-radius: 5px;
+}

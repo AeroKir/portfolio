@@ -1,0 +1,51 @@
+.skills-list, .workflow-list, .soft-skills-list {
+    border-bottom: 1px solid #AFCCDD;
+    margin-bottom: 1.5em;
+}
+
+.skill-item, .workflow-item, .soft-skill-item, .language-skill-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.skill-item:last-child, .workflow-item:last-child {
+    margin-bottom: 0.5em;
+}
+
+@media screen and (min-width: 960px) {
+    .skills-list, .workflow-list, .assets-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+                align-items: stretch;
+    }
+    .skill-item, .workflow-item, .assets-item {
+        width: calc(50% - 1em);
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        margin-right: 1em;
+    }
+}
+
+.soft-skill-item, .language-skill-item {
+    margin-bottom: 0.5em;
+}
+
+.language-skill-item:last-child {
+    margin-bottom: 2em;
+}
+
+.soft-skill-item::before, .language-skill-item::before {
+    content: '\2022';
+    margin-right: 0.3em;
+}
